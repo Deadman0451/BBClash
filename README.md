@@ -1,15 +1,15 @@
 # BBClash
 [![Crates.io](https://img.shields.io/crates/v/bbclash)](https://crates.io/crates/bbclash)
 [![Documentation](https://docs.rs/bbclash/badge.svg)](https://docs.rs/bbclash)
-[![Crates.io](https://img.shields.io/crates/l/bbclash)](https://github.com/EndaHallahan/BBClash/blob/master/LICENSE.md)
+[![Crates.io](https://img.shields.io/crates/l/bbclash)](https://github.com/Deadman0451/BBClash/blob/master/LICENSE.md)
 
 A robust, opinionated, performance-focused BBCode to HTML parser and compiler.
 
 ## What is BBClash?
 
-BBClash is the open-source version of the BBCode compiler being built for [Penclash](https://endahallahan.github.io/Penclash-Splash-Site/). Unlike most implementations, BBClash is **not RegEx-based.** It functions like a compiler, tokenizing, lexing, and then constructing compliant HTML from an AST-like object. This makes it robust and good at handling even improperly-formatted input. 
+BBClash is the open-source version of the BBCode compiler being built for [Penclash](https://deadman0451.github.io/Penclash-Splash-Site/). Unlike most implementations, BBClash is **not RegEx-based.** It functions like a compiler, tokenizing, lexing, and then constructing compliant HTML from an AST-like object. This makes it robust and good at handling even improperly-formatted input. 
 
-Our BBCode specification can be found [here](https://github.com/EndaHallahan/BBClash/blob/master/Spec.md).
+Our BBCode specification can be found [here](https://github.com/Deadman0451/BBClash/blob/master/Spec.md).
 
 *Note: currently requires Rust Nightly. Relevant issue: [54727](https://github.com/rust-lang/rust/issues/54727)*
 
@@ -58,3 +58,4 @@ Building is as simple as running `$ cargo build`. Tests and benchmarks can be ru
 
 ## License
 This version of BBClash is licensed under the terms of the MIT license.
+
